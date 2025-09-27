@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Team Bio</title>
+        <link rel="stylesheet" href="css/style.css"> 
+    </head>
+    <body>
+       
+        <button id="toggle">Dark</button>
+           <label class="switch">
+                     <input type="checkbox" id="themeSwitch">
+                    <span class="slider"></span>
+            </label>
+      
+
+        <button id="openPopup" onclick="alert('This is a simple popup message!')">Popup Message</button>
+        <script src="script.js"></script>
+
+        <h2><span style='font-size:100px;'>&#127756;</span>Start School Students<span style='font-size:100px;'>&#127756;</span></h2>
+       
+        <table>
+        <tr>
+            <th>Name</th>
+            <th>Photo</th>
+            <th>Short bio</th>
+            <th>Fun fact</th>
+            <th>Contacts</th>
+        <tr>
+            <td>Iveta Zalite 
+               <br>  <button id ="fanfacts-btn" onclick="showRandomFact_Iveta()">Surprise Me</button> 
+               <div id="iveta-fact" class="fact-balloon"></div>
+            </td>
+            <td><img src= "images/iveta.jpg" alt="Ivetas bilde" width="150px"></td>
+            <td>QA, live in Latvija</td>
+            <td>&#x1F455; knitting</td>
+            <td>iveta.zalite@startschool.org</td>
+           
+        </tr>
+        </tr>
+            <td>Elizabete Akona
+                <br>  <button id ="fanfacts-btn" onclick="showRandomFact_Elizabete()"> &#128204; Elizabete - Surprise Me</button> 
+            </td>  
+            <td><img src= "images/elizabete.jpg" alt="Elizabetes bilde" width="150px" height="150px"></td>
+            <td>Born in 2004, Riga, Latvija</td>
+            <td>&#127819; I like sour food</td>
+            <td>elizabete.akona@startschool.org</td>
+        </tr>
+        </tr>
+         <td> Inga Priedite 
+            <br>  <button id ="fanfacts-btn" onclick="showRandomFact_Inga()">&#128204; Inga - Surprise Me</button>
+         </td>
+          
+            <td><img src="images/inga.jpg" alt="Ingas bilde" width="150px" height="150px"></td>
+            <td>My bio is like a journey to Rio</td>
+            <td>&#127810; I like autumn</td>
+            <td>inga.priedite@startschool.org</td>
+     
+        </tr>
+         </table>
+        <footer>
+             <p>Authors: I,E,I</p>
+            <p><a href="mailto:iveta.zalite@startschool.org">iveta.zalite@startschool.org</a></p>
+        </footer>
+    </body>
+    
+</html>
